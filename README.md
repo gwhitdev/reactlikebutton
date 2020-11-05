@@ -2,3 +2,5 @@
 
 This is a basic, styled like button created in React.
 It currently exsists in its own class-based component where it holds its own state, rather than having it bubble-up from the App component as props.
+
+[<img src="https://gifs.com/gif/react-like-button-YWgZ7W"width="50%">]
