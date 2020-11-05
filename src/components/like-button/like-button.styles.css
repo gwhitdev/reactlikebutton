@@ -1,0 +1,15 @@
+.like-button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    margin: 15% auto;
+    display: block;
+    background-color: aqua;
+    border: rgba(0,0,0,0.6);
+    box-shadow: 5px 5px rgba(0,0,0,1);
+    outline: none;
+    cursor: pointer;
+}
