@@ -20,6 +20,8 @@ class App extends React.Component {
 
     // create local liked variable to hold the liked state
     let localLiked = this.state.liked;
+
+    // flip the state
     localLiked = !localLiked;
 
     this.setState({liked: localLiked});
