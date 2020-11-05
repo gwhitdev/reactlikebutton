@@ -1,6 +1,6 @@
 .like-button {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 25px;
+    font-size: 50px;
     font-weight: bold;
     width: 250px;
     height: 100px;
@@ -9,7 +9,18 @@
     display: block;
     background-color: aqua;
     border: rgba(0,0,0,0.6);
-    box-shadow: 5px 5px rgba(0,0,0,1);
+    border-radius: 15px;
+    box-shadow: 0px 2px 35px rgba(0,0,0,0.8);
     outline: none;
     cursor: pointer;
+    color: black;
+    transition: 0.2s;
 }
+.like-button:hover {
+    box-shadow: 0px 0px 0px rgba(0,0,0,1);
+}
+
+.like-button:active {
+    transform: translateY(4px);
+}
+
