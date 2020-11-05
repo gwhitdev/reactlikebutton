@@ -12,25 +12,38 @@ class LikeButton extends React.Component {
         }
     }
 
+    // create method to toggle the liking
     toggleLiked = () => {
+        // create localLiked variable to hold the current state of 'liked'
         let localLiked = this.state.liked;
 
+        // flip the liked state locally
         localLiked = !localLiked;
+
+        // set the liked state to the flipped localLiked variable
         this.setState({liked: localLiked});
 
+        // create localLiked variable to hold the checkMark
         let localCheckMark = '✓';
 
+        // create logic to set state correctly
         if (localLiked) {
+            // if localLiked === true, set the checkmark to be the localCheckMark
             this.setState({checkMark: localCheckMark});
         } else {
+            // if localLiked === false, set the checkMark back to the original empty string
             this.setState({checkMark: ''});
         }
 
-        console.log(this.state);
+        
 
     }
 
     render() {
+        
+        // console.log the state to observe
+        console.log(this.state);
+
         return (
             <div>
                 <button className="like-button" onClick={this.toggleLiked}>
