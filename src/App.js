@@ -24,6 +24,7 @@ class App extends React.Component {
     // flip the state
     localLiked = !localLiked;
 
+    // set the now flipped state
     this.setState({liked: localLiked});
 
     // create local checkmark variable to hold the character for setting later
